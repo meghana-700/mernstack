@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio1.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" style="text-align: circle=center; margin-top: 20px;">
+    <img src="https://t4.ftcdn.net/jpg/16/23/30/43/240_F_1623304376_r3VTbrQsJFonxxFZcTGpGi6VjYH4XyDE.jpg" alt="Meghana Bezawada" class="profile-pic">
+    <h2>Meghana Bezawada</h2>
+    <h3>Web Developer</h3>
+    <div class="social-icons">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+           alt="GitHub" class="social-img"
+           data-info="Explore my projects and contributions on GitHub."
+           data-link="https://github.com/meghana-700/fullstack">
+           
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+           alt="LinkedIn" class="social-img"
+           data-info="Connect with me on LinkedIn to know about my professional background."
+           data-link="https://www.linkedin.com/in/meghana-bezawada-59a795386/">
+           
+      <img src="https://cdn.codechef.com/sites/all/themes/abessive/cc-logo.png" 
+           alt="CodeChef" class="social-img"
+           data-info="Check out my competitive programming profile on CodeChef."
+           data-link="https://www.codechef.com/users/maggie01">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate software engineer currently pursuing III-Btech at 
+      Sasi Institute of Technology and Engineering, with a strong interest in 
+      web development. My goal is to become an entrepreneur in the tech 
+      industry, creating innovative and user-friendly web solutions. I am 
+      constantly learning and improving my skills in front-end and back-end 
+      development, aiming to build impactful digital experiences.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Learn Python Programming</li>
+      <li>Practice Python Programming</li>
+      <li>Learn HTML/CSS</li>
+      <li>500 Difficulty Rating</li>
+      <li>Problem Solving in Python</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>My Portfolio</h3>
+      <p>Personal responsive portfolio website built with HTML, CSS, and JS.</p>
+    </div>
+    <div class="project">
+      <h3>Calculator</h3>
+      <p>A simple calculator built with HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required /><br />
+      <input type="email" name="email" placeholder="Your Email" required /><br />
+      <textarea name="message" placeholder="Your Message"></textarea><br />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img id="modal-img" src="" alt="">
+      <p id="modal-text"></p>
+      <a id="modal-link" href="#" target="_blank" class="btn">Visit Profile</a>
+    </div>
+  </div>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
